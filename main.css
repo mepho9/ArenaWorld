@@ -14,8 +14,29 @@ h1{
     flex-direction: column;
 }
 
+
 .assaCont{
     display: flex;
     
     
+}
+.assaPic{
+    width:100%;
+}
+
+
+.samCont{
+    display: flex;
+    
+    align-items: center;
+}
+
+.samPic{
+    width: 120%;
+    
+}
+
+.titleSam{
+    font-size: 108px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
