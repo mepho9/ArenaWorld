@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.image{
+    height: 500px;
+}
+
+.image img {
+    height: 100%
+}
+
+.describe{
+    align-self: center;
+    text-align: justify;
+    width: 30%;
+    padding: 20px;
+    background-color: #a36d2f3d;
+    border: 1px solid;
+    border-radius: 10px;
+}

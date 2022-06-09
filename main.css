@@ -1,9 +1,10 @@
 body{
-    background-image: url("bg3.jpg");
+    background-image: url("./images/bg3.jpg");
     background-size: cover;
     background-attachment: fixed;
 
 }
+
 h1{
     display: flex;
     justify-content: center;
@@ -41,7 +42,6 @@ h1{
 
 
 }
-
 
 .samCont{
     display: flex;
