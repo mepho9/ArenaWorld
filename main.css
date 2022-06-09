@@ -21,22 +21,43 @@ h1{
     
 }
 .assaPic{
-    width:100%;
+    width: 65%;
+    
+}
+
+.assaPic img{
+    width: 80%;
+    
+}
+
+.assaTitle{
+    display: flex;
+    flex-direction: column;
+    font-size: 68px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 35%;
+    align-items: center;
+
+
+
 }
 
 
 .samCont{
     display: flex;
     
-    align-items: center;
+
 }
 
 .samPic{
+    
     width: 120%;
     
 }
 
-.titleSam{
-    font-size: 108px;
+.samTitle{
+    font-size: 68px;
     font-family: 'Kdam Thmor Pro', sans-serif;
+
 }
+
