@@ -1,0 +1,19 @@
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    15% {
+        transform: rotate(360deg);
+    }
+    85%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        
+    }
+}
+
+.rotating {
+    animation:  rotation 15s infinite;
+}
