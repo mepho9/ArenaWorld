@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/class.css">
+    <link rel="stylesheet" href="style/mediaQueries.css">
 
     <title>Warrior</title>
 </head>
@@ -44,16 +45,18 @@
                     </li>
                 </ul>
             </div>
-            <a class="login"></a>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Login" aria-label="Search">
-                <input class="form-control me-2" type="search" placeholder="Password" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Login</button>
-                <a class="navbar-brand"></a>
+            <div class="cache">
+
+                <a class="login"></a>
                 <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Login" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Password" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Login</button>
+                    <a class="navbar-brand"></a>
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
+            </div>
         </div>
     </nav>
 
@@ -62,7 +65,7 @@
         
         <div class="myContainer">
             <div class="image">
-                <img src="./images/assa1.png" alt="image assasi" >
+                <img src="./images/assa1.png" alt="image assasi" style="margin-left: 0 !important">
             </div>
             <div class="describe">
                 <p><strong>PV : 80</strong>
