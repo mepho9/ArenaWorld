@@ -13,6 +13,7 @@ h1{
 .mainCont{
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
 }
 
 .mainCont h1{
@@ -25,6 +26,7 @@ h1{
 }
 .assaPic{
     width: 65%;
+    transform: ;
     
 }
 
@@ -75,4 +77,3 @@ h1{
     font-family: 'Kdam Thmor Pro', sans-serif;
 
 }
-
