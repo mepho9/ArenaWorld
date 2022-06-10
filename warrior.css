@@ -46,3 +46,12 @@ a:hover{
     border-radius: 10px;
     color: white;
 }
+
+#skillsTree{
+    width: 25%;
+    margin-top: 2%;
+}
+
+#skillsTree img{
+    width: 100%;
+}
