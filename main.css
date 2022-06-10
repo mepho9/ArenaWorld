@@ -75,3 +75,10 @@ h1{
     font-family: 'Kdam Thmor Pro', sans-serif;
 
 }
+#carouselExampleDark {
+    width: 30%;
+}
+.carousel {
+    display: flex;
+    justify-content: center;
+}
