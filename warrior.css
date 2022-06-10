@@ -55,3 +55,9 @@ a:hover{
 #skillsTree img{
     width: 100%;
 }
+
+#trailer{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1%;
+}
