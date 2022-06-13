@@ -2,6 +2,7 @@
     .myContainer {
 
         flex-direction: column;
+        margin: 0;
     }
 
     .myContainer div{
@@ -20,7 +21,6 @@
     .cache{
         display: none ;
     }
-
     #skillsTree {
         width: 95%;
         margin: auto;

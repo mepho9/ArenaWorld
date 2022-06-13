@@ -12,12 +12,9 @@ h1 {
     margin-left: 5%;
 }
 
-.image{
-    height: 500px;
-}
 
 .image img {
-    height: 100%;
+    width: 100%;
     margin-top: 5%;
 }
 
