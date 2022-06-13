@@ -12,9 +12,8 @@
         display: none ;
     }
     #skillsTree {
-        width: 100%;
-        margin-top: 5%;
-        margin-left: 5%;
+        width: 95%;
+        margin: auto;
     }
     
     #trailer {
