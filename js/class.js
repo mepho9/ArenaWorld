@@ -1,3 +1,5 @@
+const main = document.querySelector(".main")
+const classPage = document.title
 const classes={
     "Warrior":{
         pv:100,
@@ -41,8 +43,6 @@ const classes={
     }
 }
 
-const main = document.querySelector(".main")
-const classPage = document.title
 
 document.querySelector("h1").innerText = classPage
 
@@ -59,8 +59,8 @@ main.insertAdjacentHTML("afterbegin", `
         <p><strong>Defence:  <span id="defence">${classes[classPage].defence}</span></strong>
         <p id="describe">${classes[classPage].describe}</p>
     </div>
-    <div class="rotating" id="skillsTree">
-        <img src="${classes[classPage].skills}" alt="image tree skills">
+    <div id="skillsTree">
+        <img src="${classes[classPage].skills}" class="rotating" alt="image tree skills">
     </div>
     </div>
     <div id="trailer">
