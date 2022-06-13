@@ -5,6 +5,7 @@ h1 {
 }
 
 .myContainer {
+    width: 90% ;
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 1%;
