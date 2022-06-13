@@ -1,16 +1,26 @@
 @media screen and (max-width:1024px) {
     .myContainer {
+
         flex-direction: column;
-        margin: 0;
     }
 
     .myContainer div{
         width: 95%;
     }
 
+    .image{
+        height: fit-content;
+    }
+
+    .image img {
+        height: auto;
+        width: 100%;
+    }
+
     .cache{
         display: none ;
     }
+
     #skillsTree {
         width: 95%;
         margin: auto;
