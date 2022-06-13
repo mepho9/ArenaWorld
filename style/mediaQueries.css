@@ -1,6 +1,7 @@
 @media screen and (max-width:1024px) {
     .myContainer {
         flex-direction: column;
+        margin: 0;
     }
 
     .myContainer div{
@@ -10,12 +11,29 @@
     .cache{
         display: none ;
     }
-    .image img{
-        margin-left: -60% !important;
-    }    
     #skillsTree {
+        width: 95%;
+        margin: auto;
+    }
+    
+    #trailer {
+        overflow: hidden;
+        position: relative;
+        width:100%;
+        margin-bottom: 3%;
+    }
+    
+    #trailer::after {
+        padding-top: 56.25%;
+        display: block;
+        content: '';
+    }
+    
+    #trailer iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
-        margin-top: 5%;
-        margin-left: 5%;
+        height: 100%;
     }
 }
